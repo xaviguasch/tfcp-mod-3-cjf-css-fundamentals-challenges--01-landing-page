@@ -1,2 +1,53 @@
 body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* Typography */
+
+h1 {
+  font-size: 36px;
+}
+h2 {
+  font-size: 24px;
+}
+a {
+  color: #ef5839;
+}
+a:focus,
+a:hover {
+  color: #6e2b1e;
+}
+
+/* Layout */
+
+.container {
+  width: 620px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.title-section {
+  background: #2e354f;
+  color: #fff;
+}
+
+.title-text,
+.section-title {
+  text-transform: uppercase;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #ef5839;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 900;
+  margin: 20px 0;
 }
