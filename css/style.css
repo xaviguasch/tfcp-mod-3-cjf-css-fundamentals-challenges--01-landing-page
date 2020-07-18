@@ -3,6 +3,7 @@ body {
   font-family: 'Lato', sans-serif;
   font-size: 18px;
   font-weight: 400;
+  text-align: center;
 }
 
 /* Typography */
@@ -27,7 +28,6 @@ a:hover {
   width: 620px;
   margin: 0 auto;
   margin-bottom: 25px;
-  text-align: center;
   padding: 10px 0;
 }
 
@@ -50,4 +50,10 @@ a:hover {
   text-decoration: none;
   font-weight: 900;
   margin: 20px 0;
+}
+
+.btn:focus,
+.btn:hover {
+  background: #d4b44c;
+  color: #2e354f;
 }
